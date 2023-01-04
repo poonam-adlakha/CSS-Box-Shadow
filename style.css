@@ -1,0 +1,95 @@
+body {
+    background: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+h4 {
+    color: #e1e2ec;
+    font-size: 250%;
+    text-align: center;
+}
+
+h5 {
+    position: absolute;
+    color: #e1e2ec;
+    top: 60%;
+    left: 70%;
+    font-size: 15px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border-radius: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+@keyframes hover1 {
+    to {
+        box-shadow: 10px 5px #C0EEE4;
+    }
+}
+
+@keyframes hover2 {
+    to {
+        box-shadow: -10px -5px #C0EEE4;
+    }
+}
+
+
+@keyframes hover3 {
+    to {
+        box-shadow: 10px 5px 8px #C0EEE4;
+    }
+}
+
+@keyframes hover4 {
+    to {
+        box-shadow: 10px 5px 8px #C0EEE4, -10px -5px 5px #F6F54D;
+    }
+}
+
+@keyframes hover5 {
+    to {
+        box-shadow: 10px 5px 8px 2px #C0EEE4;
+    }
+}
+
+@keyframes hover6 {
+    to {
+        box-shadow: inset -10px -5px 12px #e1e2ec;;
+    }
+}
+
+#example1 {
+    animation: hover1 2s linear infinite;
+    
+}
+
+#example2 {
+    animation: hover2 2s linear infinite;
+}
+
+#example3 {
+    animation: hover3 2s linear infinite;
+}
+
+#example4 {
+    animation: hover4 2s linear infinite;
+}
+
+#example5 {
+    animation: hover5 2s linear infinite;
+}
+
+#example6 {
+    animation: hover6 2s linear infinite;
+}
