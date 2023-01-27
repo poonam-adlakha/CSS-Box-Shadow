@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: white;
 }
 
 .container {
@@ -12,14 +12,14 @@ body {
 }
 
 h4 {
-    color: #e1e2ec;
+    color: #0214e1;
     font-size: 250%;
     text-align: center;
 }
 
 h5 {
     position: absolute;
-    color: #e1e2ec;
+    color: #020416;
     left: 70%;
     font-size: 15px;
 }
@@ -30,7 +30,13 @@ button {
     background: transparent;
     border-radius: 1em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: rgb(98, 94, 94);
+    border: #a6a6ac 1px solid;
+}
+
+#reference2 {
+    box-shadow: 50px 50px 91px #9b9b9b,
+    30px 30px 91px #a47979;
 }
 
 @keyframes hover1 {
