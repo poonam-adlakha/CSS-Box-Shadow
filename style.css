@@ -41,38 +41,38 @@ button {
 
 @keyframes hover1 {
     to {
-        box-shadow: 10px 5px #7DEDFF;
+        box-shadow: 10px 5px #9b9b9b;
     }
 }
 
 @keyframes hover2 {
     to {
-        box-shadow: -10px -5px #7DEDFF;
+        box-shadow: -10px -5px #9b9b9b;
     }
 }
 
 
 @keyframes hover3 {
     to {
-        box-shadow: 10px 5px 8px #7DEDFF;
+        box-shadow: 10px 5px 8px #9b9b9b;
     }
 }
 
 @keyframes hover4 {
     to {
-        box-shadow: 10px 5px 8px #7DEDFF, -10px -5px 10px #FBC7F7;
+        box-shadow: 10px 5px 8px #9b9b9b, -10px -5px 10px #7DEDFF;
     }
 }
 
 @keyframes hover5 {
     to {
-        box-shadow: 10px 5px 8px 2px #7DEDFF;
+        box-shadow: 10px 5px 8px 2px #9b9b9b;
     }
 }
 
 @keyframes hover6 {
     to {
-        box-shadow: inset -10px -5px 12px #7DEDFF;;
+        box-shadow: inset -10px -5px 12px #9b9b9b;
     }
 }
 
