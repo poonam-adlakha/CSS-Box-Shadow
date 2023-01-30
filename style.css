@@ -6,8 +6,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 30px;
-    row-gap: 30px;
+    column-gap: 35px;
+    row-gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -31,12 +31,12 @@ button {
     border-radius: 1em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(98, 94, 94);
-    border: #a6a6ac 1px solid;
+    border: 1px solid #ecebeb;
 }
 
 #reference2 {
-    box-shadow: 50px 50px 91px #9b9b9b,
-    30px 30px 91px #a47979;
+    box-shadow: 5px 5px 13px #c5c5c5,
+             -5px -5px 13px #ffffff;
 }
 
 @keyframes hover1 {
